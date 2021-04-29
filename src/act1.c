@@ -14,7 +14,7 @@ void act1()
         {
             if(!(PIND&(1<<PD1)))
             {
-                 PORTB|=(1<<PB0);//passanger and heater button indication
+                 PORTB|=(1<<PB0);//passenger and heater button indication
                  _delay_ms(500);
             }
 
