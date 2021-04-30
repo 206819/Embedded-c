@@ -1,6 +1,6 @@
 /**
  * @file act2.c
- * @author 206819
+ * @author 206819(you@domain.com)
  * @brief 
  * @version 0.1
  * @date 2021-04-30
