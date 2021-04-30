@@ -11,3 +11,4 @@
 
 
 
+[![Cppcheck](https://github.com/206819/Embedded-c/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/206819/Embedded-c/actions/workflows/Cppcheck.yml)
