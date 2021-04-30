@@ -11,7 +11,7 @@
 #include<avr/io.h>
 #include"act4.h"
 
-void UARTInit(uint16_t ubrr_value)
+void USARTInit(uint16_t ubrr_value)
 {
 
     UBRR0L = ubrr_value;
@@ -22,7 +22,7 @@ void UARTInit(uint16_t ubrr_value)
 
 }
 
-void UARTwriteChar(char c)
+void USARTwriteChar(char c)
 {
     while(!(UCSR0A & (1<<UDRE0)))
     {
@@ -30,7 +30,7 @@ void UARTwriteChar(char c)
     }
     UDR0 = c;
 }
-char UARTREADChar()
+char USARTREADChar()
 {
   while(!(UCSR0A&(1<<RXC0)))
   {
