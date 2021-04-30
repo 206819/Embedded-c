@@ -1,4 +1,4 @@
-PROJ_NAME = Activity1
+PROJ_NAME = embc
 
 BUILD_DIR = Build
 
