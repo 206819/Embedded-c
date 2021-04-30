@@ -3,7 +3,7 @@ PROJ_NAME = embc
 BUILD_DIR = Build
 
 # All Source code files
-SRC = Activity1.c\
+SRC = embc.c\
 src/act1.c\
 src/act2.c
 
