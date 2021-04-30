@@ -11,6 +11,7 @@
 #include "act1.h"
 #include "act2.h"
 #include "act3.h"
+#include "act4.h"
 #include<avr/io.h>
 #include<util/delay.h>
 
@@ -25,6 +26,7 @@ int main(void)
   {
     temp=ReadADC(0);
     _delay_ms(10);
+    USARTwriteChar(char c);
   }
   return 0;
 }
