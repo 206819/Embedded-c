@@ -26,12 +26,13 @@ char USARTREADChar()
   while(!(UCSR0A&(1<<RXC0)))
   {
   }
-  return URDO
-void UARTwrite(char data)
+  return URD0;
+}
+void USARTwriteChar(char c)
 {
     while(!(UCSR0A & (1<<UDRE0)))
     {
 
     }
-    UDR0 = data;
+    UDR0 = c;
 }
