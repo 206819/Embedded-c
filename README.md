@@ -9,6 +9,6 @@
 # Activity 2
 ![temp status](https://user-images.githubusercontent.com/81298446/116659230-e5382e00-a9ae-11eb-9525-da9ef93239ac.png)
 
-
+# In Action
 
 [![Cppcheck](https://github.com/206819/Embedded-c/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/206819/Embedded-c/actions/workflows/Cppcheck.yml)
